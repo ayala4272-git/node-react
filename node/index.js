@@ -9,7 +9,6 @@ let count=0;
 for(i=0;i<names.length;i++){
     persons[i]={
     name:names[i],
-    id:u.v4(),
     date:d.format(new Date(),"dd/MM/yyyy-hh:mm:ss")
  }
     
